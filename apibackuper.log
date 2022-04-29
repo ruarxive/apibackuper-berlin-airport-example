@@ -1,0 +1,44 @@
+2022-04-29 18:33:07,378 [MainThread  ] [DEBUG]  Start request params: {'arrivalDeparture': 'A', 'dateFrom': '2022-04-28T00:00:00', 'dateUntil': '2022-04-29', 'search': '', 'lang': 'en', 'page': 1, 'terminal': ''} headers: {}
+2022-04-29 18:33:07,382 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): ber.berlin-airport.de:443
+2022-04-29 18:33:07,986 [MainThread  ] [DEBUG]  https://ber.berlin-airport.de:443 "GET /api.flights.json?arrivalDeparture=A&dateFrom=2022-04-28T00%3A00%3A00&dateUntil=2022-04-29&search=&lang=en&page=1&terminal= HTTP/1.1" 200 1918
+2022-04-29 18:33:12,423 [MainThread  ] [INFO ]  url: https://ber.berlin-airport.de/api.flights.json, params: {'arrivalDeparture': 'A', 'dateFrom': '2022-04-28T00:00:00', 'dateUntil': '2022-04-29', 'search': '', 'lang': 'en', 'page': 1, 'terminal': ''}
+2022-04-29 18:33:12,427 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): ber.berlin-airport.de:443
+2022-04-29 18:33:12,703 [MainThread  ] [DEBUG]  https://ber.berlin-airport.de:443 "GET /api.flights.json?arrivalDeparture=A&dateFrom=2022-04-28T00%3A00%3A00&dateUntil=2022-04-29&search=&lang=en&page=1&terminal= HTTP/1.1" 200 1918
+2022-04-29 18:33:12,705 [MainThread  ] [INFO ]  Total pages 12, records 226
+2022-04-29 18:33:12,706 [MainThread  ] [INFO ]  url: https://ber.berlin-airport.de/api.flights.json, params: {'arrivalDeparture': 'A', 'dateFrom': '2022-04-28T00:00:00', 'dateUntil': '2022-04-29', 'search': '', 'lang': 'en', 'page': 1, 'terminal': ''}
+2022-04-29 18:33:12,959 [MainThread  ] [DEBUG]  https://ber.berlin-airport.de:443 "GET /api.flights.json?arrivalDeparture=A&dateFrom=2022-04-28T00%3A00%3A00&dateUntil=2022-04-29&search=&lang=en&page=1&terminal= HTTP/1.1" 200 1919
+2022-04-29 18:33:13,468 [MainThread  ] [INFO ]  Saving page 1 of 12
+2022-04-29 18:33:13,470 [MainThread  ] [INFO ]  url: https://ber.berlin-airport.de/api.flights.json, params: {'arrivalDeparture': 'A', 'dateFrom': '2022-04-28T00:00:00', 'dateUntil': '2022-04-29', 'search': '', 'lang': 'en', 'page': 2, 'terminal': ''}
+2022-04-29 18:33:13,727 [MainThread  ] [DEBUG]  https://ber.berlin-airport.de:443 "GET /api.flights.json?arrivalDeparture=A&dateFrom=2022-04-28T00%3A00%3A00&dateUntil=2022-04-29&search=&lang=en&page=2&terminal= HTTP/1.1" 200 1841
+2022-04-29 18:33:14,243 [MainThread  ] [INFO ]  Saving page 2 of 12
+2022-04-29 18:33:14,243 [MainThread  ] [INFO ]  url: https://ber.berlin-airport.de/api.flights.json, params: {'arrivalDeparture': 'A', 'dateFrom': '2022-04-28T00:00:00', 'dateUntil': '2022-04-29', 'search': '', 'lang': 'en', 'page': 3, 'terminal': ''}
+2022-04-29 18:33:14,507 [MainThread  ] [DEBUG]  https://ber.berlin-airport.de:443 "GET /api.flights.json?arrivalDeparture=A&dateFrom=2022-04-28T00%3A00%3A00&dateUntil=2022-04-29&search=&lang=en&page=3&terminal= HTTP/1.1" 200 1964
+2022-04-29 18:33:15,022 [MainThread  ] [INFO ]  Saving page 3 of 12
+2022-04-29 18:33:15,023 [MainThread  ] [INFO ]  url: https://ber.berlin-airport.de/api.flights.json, params: {'arrivalDeparture': 'A', 'dateFrom': '2022-04-28T00:00:00', 'dateUntil': '2022-04-29', 'search': '', 'lang': 'en', 'page': 4, 'terminal': ''}
+2022-04-29 18:33:15,259 [MainThread  ] [DEBUG]  https://ber.berlin-airport.de:443 "GET /api.flights.json?arrivalDeparture=A&dateFrom=2022-04-28T00%3A00%3A00&dateUntil=2022-04-29&search=&lang=en&page=4&terminal= HTTP/1.1" 200 1883
+2022-04-29 18:33:15,770 [MainThread  ] [INFO ]  Saving page 4 of 12
+2022-04-29 18:33:15,771 [MainThread  ] [INFO ]  url: https://ber.berlin-airport.de/api.flights.json, params: {'arrivalDeparture': 'A', 'dateFrom': '2022-04-28T00:00:00', 'dateUntil': '2022-04-29', 'search': '', 'lang': 'en', 'page': 5, 'terminal': ''}
+2022-04-29 18:33:16,010 [MainThread  ] [DEBUG]  https://ber.berlin-airport.de:443 "GET /api.flights.json?arrivalDeparture=A&dateFrom=2022-04-28T00%3A00%3A00&dateUntil=2022-04-29&search=&lang=en&page=5&terminal= HTTP/1.1" 200 1884
+2022-04-29 18:33:16,518 [MainThread  ] [INFO ]  Saving page 5 of 12
+2022-04-29 18:33:16,519 [MainThread  ] [INFO ]  url: https://ber.berlin-airport.de/api.flights.json, params: {'arrivalDeparture': 'A', 'dateFrom': '2022-04-28T00:00:00', 'dateUntil': '2022-04-29', 'search': '', 'lang': 'en', 'page': 6, 'terminal': ''}
+2022-04-29 18:33:16,798 [MainThread  ] [DEBUG]  https://ber.berlin-airport.de:443 "GET /api.flights.json?arrivalDeparture=A&dateFrom=2022-04-28T00%3A00%3A00&dateUntil=2022-04-29&search=&lang=en&page=6&terminal= HTTP/1.1" 200 1844
+2022-04-29 18:33:17,307 [MainThread  ] [INFO ]  Saving page 6 of 12
+2022-04-29 18:33:17,309 [MainThread  ] [INFO ]  url: https://ber.berlin-airport.de/api.flights.json, params: {'arrivalDeparture': 'A', 'dateFrom': '2022-04-28T00:00:00', 'dateUntil': '2022-04-29', 'search': '', 'lang': 'en', 'page': 7, 'terminal': ''}
+2022-04-29 18:33:17,581 [MainThread  ] [DEBUG]  https://ber.berlin-airport.de:443 "GET /api.flights.json?arrivalDeparture=A&dateFrom=2022-04-28T00%3A00%3A00&dateUntil=2022-04-29&search=&lang=en&page=7&terminal= HTTP/1.1" 200 1784
+2022-04-29 18:33:18,084 [MainThread  ] [INFO ]  Saving page 7 of 12
+2022-04-29 18:33:18,084 [MainThread  ] [INFO ]  url: https://ber.berlin-airport.de/api.flights.json, params: {'arrivalDeparture': 'A', 'dateFrom': '2022-04-28T00:00:00', 'dateUntil': '2022-04-29', 'search': '', 'lang': 'en', 'page': 8, 'terminal': ''}
+2022-04-29 18:33:18,319 [MainThread  ] [DEBUG]  https://ber.berlin-airport.de:443 "GET /api.flights.json?arrivalDeparture=A&dateFrom=2022-04-28T00%3A00%3A00&dateUntil=2022-04-29&search=&lang=en&page=8&terminal= HTTP/1.1" 200 1857
+2022-04-29 18:33:18,820 [MainThread  ] [INFO ]  Saving page 8 of 12
+2022-04-29 18:33:18,821 [MainThread  ] [INFO ]  url: https://ber.berlin-airport.de/api.flights.json, params: {'arrivalDeparture': 'A', 'dateFrom': '2022-04-28T00:00:00', 'dateUntil': '2022-04-29', 'search': '', 'lang': 'en', 'page': 9, 'terminal': ''}
+2022-04-29 18:33:19,025 [MainThread  ] [DEBUG]  https://ber.berlin-airport.de:443 "GET /api.flights.json?arrivalDeparture=A&dateFrom=2022-04-28T00%3A00%3A00&dateUntil=2022-04-29&search=&lang=en&page=9&terminal= HTTP/1.1" 200 1912
+2022-04-29 18:33:19,536 [MainThread  ] [INFO ]  Saving page 9 of 12
+2022-04-29 18:33:19,537 [MainThread  ] [INFO ]  url: https://ber.berlin-airport.de/api.flights.json, params: {'arrivalDeparture': 'A', 'dateFrom': '2022-04-28T00:00:00', 'dateUntil': '2022-04-29', 'search': '', 'lang': 'en', 'page': 10, 'terminal': ''}
+2022-04-29 18:33:19,742 [MainThread  ] [DEBUG]  https://ber.berlin-airport.de:443 "GET /api.flights.json?arrivalDeparture=A&dateFrom=2022-04-28T00%3A00%3A00&dateUntil=2022-04-29&search=&lang=en&page=10&terminal= HTTP/1.1" 200 1771
+2022-04-29 18:33:20,257 [MainThread  ] [INFO ]  Saving page 10 of 12
+2022-04-29 18:33:20,257 [MainThread  ] [INFO ]  url: https://ber.berlin-airport.de/api.flights.json, params: {'arrivalDeparture': 'A', 'dateFrom': '2022-04-28T00:00:00', 'dateUntil': '2022-04-29', 'search': '', 'lang': 'en', 'page': 11, 'terminal': ''}
+2022-04-29 18:33:20,461 [MainThread  ] [DEBUG]  https://ber.berlin-airport.de:443 "GET /api.flights.json?arrivalDeparture=A&dateFrom=2022-04-28T00%3A00%3A00&dateUntil=2022-04-29&search=&lang=en&page=11&terminal= HTTP/1.1" 200 1757
+2022-04-29 18:33:20,969 [MainThread  ] [INFO ]  Saving page 11 of 12
+2022-04-29 18:33:20,970 [MainThread  ] [INFO ]  url: https://ber.berlin-airport.de/api.flights.json, params: {'arrivalDeparture': 'A', 'dateFrom': '2022-04-28T00:00:00', 'dateUntil': '2022-04-29', 'search': '', 'lang': 'en', 'page': 12, 'terminal': ''}
+2022-04-29 18:33:21,168 [MainThread  ] [DEBUG]  https://ber.berlin-airport.de:443 "GET /api.flights.json?arrivalDeparture=A&dateFrom=2022-04-28T00%3A00%3A00&dateUntil=2022-04-29&search=&lang=en&page=12&terminal= HTTP/1.1" 200 916
+2022-04-29 18:33:21,681 [MainThread  ] [INFO ]  Saving page 12 of 12
+2022-04-29 18:38:19,409 [MainThread  ] [INFO ]  Data exported to data.jsonl
